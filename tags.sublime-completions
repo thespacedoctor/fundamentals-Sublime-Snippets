@@ -1,0 +1,40 @@
+{
+"scope": "source.python",
+"completions":
+[
+   
+	{ "trigger": "fundamentals> list of dictionaries to csv or plain table\tcomp", "contents": "xfundamentals-list-of-dictionaries-to-csv-or-plain-table" },
+	{ "trigger": "fundamentals> setup logging from a yaml settings file\tcomp", "contents": "xfundamentals-setup-logging-from-a-yaml-settings-file" },
+	{ "trigger": "fundamentals> import a directory of yaml file contents into a databse\tcomp", "contents": "xfundamentals-import-a-directory-of-yaml-file-contents-into-a-databse" },
+	{ "trigger": "fundamentals> get difference between two times\tcomp", "contents": "xfundamentals-get-difference-between-two-times" },
+	{ "trigger": "fundamentals> date:get difference between two times\ttag", "contents": "xfundamentals-get-difference-between-two-times" },
+	{ "trigger": "fundamentals> get now as mysql datetime\tcomp", "contents": "xfundamentals-get-now-as-mysql-datetime" },
+	{ "trigger": "fundamentals> date:get now as mysql datetime\ttag", "contents": "xfundamentals-get-now-as-mysql-datetime" },
+	{ "trigger": "fundamentals> time:get now as mysql datetime\ttag", "contents": "xfundamentals-get-now-as-mysql-datetime" },
+	{ "trigger": "fundamentals> get database table column names\tcomp", "contents": "xfundamentals-get-database-table-column-names" },
+	{ "trigger": "fundamentals> emptylogger\tcomp", "contents": "xfundamentals-emptylogger" },
+	{ "trigger": "fundamentals> execute all mysql scripts in directory\tcomp", "contents": "xfundamentals-execute-all-mysql-scripts-in-directory" },
+	{ "trigger": "fundamentals> create console logger\tcomp", "contents": "xfundamentals-create-console-logger" },
+	{ "trigger": "fundamentals> render list of dictionaries as mysql insert commands\tcomp", "contents": "xfundamentals-render-list-of-dictionaries-as-mysql-insert-commands" },
+	{ "trigger": "fundamentals> test if mysql table exists\tcomp", "contents": "xfundamentals-test-if-mysql-table-exists" },
+	{ "trigger": "fundamentals> setup project tools from command line execution\tcomp", "contents": "xfundamentals-setup-project-tools-from-command-line-execution" },
+	{ "trigger": "fundamentals> download multiple web documents\tcomp", "contents": "xfundamentals-download-multiple-web-documents" },
+	{ "trigger": "fundamentals> setup database connection from yaml settings file\tcomp", "contents": "xfundamentals-setup-database-connection-from-yaml-settings-file" },
+	{ "trigger": "fundamentals> sql read query\tcomp", "contents": "xfundamentals-sql-read-query" },
+	{ "trigger": "fundamentals> convert python dictionary to sql table\tcomp", "contents": "xfundamentals-convert-python-dictionary-to-sql-table" },
+	{ "trigger": "fundamentals> import contents of single yaml file into database\tcomp", "contents": "xfundamentals-import-contents-of-single-yaml-file-into-database" },
+	{ "trigger": "fundamentals> add datestamp to a filename string\tcomp", "contents": "xfundamentals-add-datestamp-to-a-filename-string" },
+	{ "trigger": "fundamentals> timestamp:add datestamp to a filename string\ttag", "contents": "xfundamentals-add-datestamp-to-a-filename-string" },
+	{ "trigger": "fundamentals> now as timestamp\tcomp", "contents": "xfundamentals-now-as-timestamp" },
+	{ "trigger": "fundamentals> now:now as timestamp\ttag", "contents": "xfundamentals-now-as-timestamp" },
+	{ "trigger": "fundamentals> timestamp:now as timestamp\ttag", "contents": "xfundamentals-now-as-timestamp" },
+	{ "trigger": "fundamentals> datetime:now as timestamp\ttag", "contents": "xfundamentals-now-as-timestamp" },
+	{ "trigger": "fundamentals> render list of dictionaries\tcomp", "contents": "xfundamentals-render-list-of-dictionaries" },
+	{ "trigger": "fundamentals> insert a list of python dictionaries into sql database\tcomp", "contents": "xfundamentals-insert-a-list-of-python-dictionaries-into-sql-database" },
+	{ "trigger": "fundamentals> get name of web document\tcomp", "contents": "xfundamentals-get-name-of-web-document" },
+	{ "trigger": "fundamentals> title:get name of web document\ttag", "contents": "xfundamentals-get-name-of-web-document" },
+	{ "trigger": "fundamentals> url:get name of web document\ttag", "contents": "xfundamentals-get-name-of-web-document" },
+	{ "trigger": "fundamentals> recursively list files and or folders in a directory\tcomp", "contents": "xfundamentals-recursively-list-files-and-or-folders-in-a-directory" },
+	{ "trigger": "fundamentals> sql write query\tcomp", "contents": "xfundamentals-sql-write-query" } 
+]
+}

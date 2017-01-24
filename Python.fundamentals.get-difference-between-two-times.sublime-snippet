@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+from fundamentals import times
+timediff = times.calculate_time_difference(startDate=${1:"2015-10-13 10:02:12"}, endDate=${2:"2017-11-04 16:47:05"})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xfundamentals-get-difference-between-two-times</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>get-difference-between-two-times</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags>date</tags>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+from fundamentals.download import multiobject_download
+localUrls = multiobject_download(
+    urlList=${1:urlList},
+    downloadDirectory="/tmp",
+    log=self.log,
+    timeStamp=True,
+    timeout=180,
+    concurrentDownloads=2,
+    resetFilename=False,
+    credentials=False,  # { 'username' : "...", "password", "..." }
+    longTime=True,
+    indexFilenames=False
+)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xfundamentals-download-multiple-web-documents</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>download-multiple-web-documents</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>

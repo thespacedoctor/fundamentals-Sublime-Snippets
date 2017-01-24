@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+from fundamentals.mysql import convert_dictionary_to_mysql_table
+insertCommand, valueTuple = convert_dictionary_to_mysql_table(
+    dbConn=${1:self.}dbConn,
+    log=${1:self.}log,
+    dictionary=${2:dictionary},
+    dbTableName="${3:testing_table}",
+    uniqueKeyList=[],
+    dateModified=False,
+    returnInsertOnly=False,
+    replace=False,
+    batchInserts=True # will only return inserts
+)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xfundamentals-convert-python-dictionary-to-sql-table</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>convert-python-dictionary-to-sql-table</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+from fundamentals.mysql import get_database_table_column_names
+columnNames = get_database_table_column_names(
+    dbConn=dbConn,
+    log=log,
+    dbTable="${1:test_table}"
+)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xfundamentals-get-database-table-column-names</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>get-database-table-column-names</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>

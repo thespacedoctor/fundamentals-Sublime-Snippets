@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+from fundamentals.mysql import yaml_to_database
+yaml2db = yaml_to_database(
+    log=log,
+    settings=settings,
+    dbConn=dbConn,
+    pathToInputDir=${1:"/path/to/yaml/directory"},
+    deleteFiles=True
+) 
+yaml2db.ingest()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xfundamentals-import-a-directory-of-yaml-file-contents-into-a-databse</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>import-a-directory-of-yaml-file-contents-into-a-databse</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>

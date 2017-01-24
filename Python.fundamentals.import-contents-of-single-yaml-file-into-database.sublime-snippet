@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+from fundamentals.mysql import yaml_to_database
+# PARSE YAML FILE CONTENTS AND ADD TO DATABASE
+yaml2db = yaml_to_database(
+    log=log,
+    settings=settings,
+    dbConn=dbConn
+) 
+yaml2db.add_yaml_file_content_to_database(
+    filepath=${1:"/path/to/file.yaml"},
+    deleteFile=True
+)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xfundamentals-import-contents-of-single-yaml-file-into-database</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>import-contents-of-single-yaml-file-into-database</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>

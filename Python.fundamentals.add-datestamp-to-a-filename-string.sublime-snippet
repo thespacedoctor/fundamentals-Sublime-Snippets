@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+from fundamentals.download import append_now_datestamp_to_filename
+filename = append_now_datestamp_to_filename(
+    log=log,
+    filename="${1:some_filename.html}",
+    longTime=True
+)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xfundamentals-add-datestamp-to-a-filename-string</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>add-datestamp-to-a-filename-string</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags>timestamp</tags>
+</snippet>

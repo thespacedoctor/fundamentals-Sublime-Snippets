@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+from fundamentals import logs
+log = logs.setup_dryx_logging(
+    yaml_file="${1:/path/to/settings.yaml}"
+)
+log.error("test error")
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xfundamentals-setup-logging-from-a-yaml-settings-file</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>setup-logging-from-a-yaml-settings-file</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>

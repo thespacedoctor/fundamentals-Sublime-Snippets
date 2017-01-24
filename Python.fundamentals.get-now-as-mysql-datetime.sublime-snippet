@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+from fundamentals import times
+now = times.get_now_sql_datetime()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xfundamentals-get-now-as-mysql-datetime</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>get-now-as-mysql-datetime</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags>date, time</tags>
+</snippet>

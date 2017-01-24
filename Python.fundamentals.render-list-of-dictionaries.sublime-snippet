@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+from fundamentals.renderer import list_of_dictionaries
+dataSet = list_of_dictionaries(
+    log=log,
+    listOfDictionaries=dataList
+)
+originalList = dataSet.list
+csvData = dataSet.csv(filepath=None)
+tableData = dataSet.table(filepath=None)
+mysqlData = dataSet.mysql(tableName="mysql_table", filepath=None, createStatement=False)
+jsonData = dataSet.json(filepath=None)
+yamlData = dataSet.yaml(filepath=None)
+markdownData = dataSet.markdown(filepath=None)
+reSTData = dataSet.reST(filepath=None)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xfundamentals-render-list-of-dictionaries</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>render-list-of-dictionaries</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+from fundamentals.download import extract_filename_from_url
+docname = extract_filename_from_url(
+    log=log,
+    url="${1:https://en.wikipedia.org/wiki/Docstring}"
+)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xfundamentals-get-name-of-web-document</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>get-name-of-web-document</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags>title, url</tags>
+</snippet>

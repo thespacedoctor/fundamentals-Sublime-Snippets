@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+from fundamentals.mysql import directory_script_runner
+directory_script_runner(
+    log=log,
+    pathToScriptDirectory="/path/to/mysql_scripts",
+    databaseName=self.settings["database settings"]["db"],
+    loginPath=self.settings["database settings"]["loginPath"],
+    successRule="delete",
+    failureRule="failed"
+)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xfundamentals-execute-all-mysql-scripts-in-directory</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>execute-all-mysql-scripts-in-directory</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>

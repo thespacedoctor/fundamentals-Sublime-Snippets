@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+from fundamentals.files import recursive_directory_listing
+theseFiles = recursive_directory_listing(
+    log=self.log,
+    baseFolderPath="${1:pathToFolder}",
+    whatToList="all" # all | files | dirs
+)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xfundamentals-recursively-list-files-and-or-folders-in-a-directory</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>recursively-list-files-and-or-folders-in-a-directory</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>

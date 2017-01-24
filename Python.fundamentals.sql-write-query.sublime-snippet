@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+from fundamentals.mysql import writequery
+sqlQuery = """INSERT INTO testing_table (id) values (%s)""" % locals()
+writequery(
+    log=${1:self.}log,
+    sqlQuery=sqlQuery,
+    dbConn=${1:self.}dbConn,
+    Force=False,
+    manyValueList=[(1,), (2,), (3,), (4,), (5,), (6,), (7,),
+                   (8,), (9,), (10,), (11,), (12,), ]
+)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xfundamentals-sql-write-query</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>sql-write-query</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>

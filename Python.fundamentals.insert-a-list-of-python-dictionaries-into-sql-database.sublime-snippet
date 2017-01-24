@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+from fundamentals.mysql import insert_list_of_dictionaries_into_database_tables
+insert_list_of_dictionaries_into_database_tables(
+    dbConn=${1:self.}dbConn,
+    log=${1:}log,
+    dictList=${2:dictList},
+    dbTableName="${3:test_insert_many}",
+    uniqueKeyList=[${4:"col1", "col3"}],
+    dateModified=False,
+    batchSize=2500,
+    replace=False
+)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xfundamentals-insert-a-list-of-python-dictionaries-into-sql-database</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>insert-a-list-of-python-dictionaries-into-sql-database</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>

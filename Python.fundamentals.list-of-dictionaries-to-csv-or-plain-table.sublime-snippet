@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+from fundamentals.files import list_of_dictionaries_to_csv
+csvOutput = list_of_dictionaries_to_csv(
+    log=log,
+    datalist=${1:myListOfDictionaries},
+    csvType="human" # machine | human
+)
+print csvOutput
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xfundamentals-list-of-dictionaries-to-csv-or-plain-table</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>list-of-dictionaries-to-csv-or-plain-table</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>
